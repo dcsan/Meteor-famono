@@ -160,6 +160,7 @@ var loadLibraries = function(deps, callback) {
     // Load each dep
     for (var i = 0; i < deps.length; i++) {
       // We wait until the submodules have loaded
+      console.log("loadLibraries", deps[i])
       loadModuleDefinition(deps[i], function() {
         if (--count === 0) callback(moduleDefineDone);
       });

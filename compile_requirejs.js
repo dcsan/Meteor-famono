@@ -91,6 +91,9 @@ var installationCheck = function() {
       'famous': {
         git: 'https://github.com/Famous/famous.git'
       },
+      'famous-physics': {
+        git: 'https://github.com/Famous/physics.git'
+      },
       'famous-polyfills': {
         git: 'https://github.com/Famous/polyfills.git'
       },
