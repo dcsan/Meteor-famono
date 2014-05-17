@@ -86,7 +86,7 @@ var installationCheck = function() {
 
     var defaultDeps = JSON.stringify({
       'famous': {
-        git: 'https://github.com/Famous/famous.git'
+        git: 'https://github.com/dcsan/famous.git'
       },
       'famous-polyfills': {
         git: 'https://github.com/Famous/polyfills.git'
