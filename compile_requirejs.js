@@ -136,22 +136,19 @@ var installationCheck = function() {
     console.log(green, 'Famono:', normal, 'Creating "lib/smart.require" config file, for you to edit');
 
     var defaultDeps = JSON.stringify({
-      // 'famous': {
-      //   git: 'https://github.com/Famous/famous.git'
-      // },
       'famous': {
         git: 'https://github.com/dcsan/famous.git',
         branch: 'scview'
       },
-      'famous.polyfills': {
-        git: 'https://github.com/Famous/polyfills.git'
-      },
-      'library': {
-        git: 'https://github.com/raix/library.git'
-      },
-      'famous-polyfills': {
-        alias: 'famous.polyfills'
-      }      
+      // 'famous.polyfills': {
+      //   git: 'https://github.com/Famous/polyfills.git'
+      // },
+      // 'library': {
+      //   git: 'https://github.com/raix/library.git'
+      // },
+      // 'famous-polyfills': {
+      //   alias: 'famous.polyfills'
+      // }      
     }, null, '\t');
 
     fs.writeFileSync(filename, defaultDeps, 'utf8');
