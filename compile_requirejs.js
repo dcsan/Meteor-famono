@@ -140,8 +140,8 @@ var installationCheck = function() {
       //   git: 'https://github.com/Famous/famous.git'
       // },
       'famous': {
-        git: 'https://github.com/raix/famous.git',
-        branch: 'famono'
+        git: 'https://github.com/dcsan/famous.git',
+        branch: 'scview'
       },
       'famous.polyfills': {
         git: 'https://github.com/Famous/polyfills.git'
